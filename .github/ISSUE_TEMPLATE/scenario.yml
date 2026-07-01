@@ -1,0 +1,24 @@
+name: Share a scenario
+description: Post a Pax Historia scenario for others to play
+title: "[Scenario] "
+labels: ["scenario"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **How to post:** in the game, export your scenario (Scenarios → Edit → Bundles → **Download JSON**),
+        then **drag the downloaded `.json` file into the Description box below** — GitHub uploads it and
+        inserts a link. Keep that link in the description or nobody can import your scenario!
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is your scenario about — era, factions, twists? Attach your scenario .json by dragging it into this box.
+      placeholder: Describe your scenario, then drag your exported .json file into this box to attach it.
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Made by
+      placeholder: your name / username

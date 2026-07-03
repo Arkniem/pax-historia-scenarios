@@ -1,6 +1,6 @@
 # Open Historia — Scenario Hub
 
-Community scenarios for [Open Historia]([https://github.com/Arkniem/Open-historia-2](https://github.com/Arkniem/Open-Historia-Beta).
+Community scenarios for [Open Historia]([https://github.com/Arkniem/Open-Historia-Beta]).
 Every **issue** on this repo is a posted scenario. The game's **Community** tab reads this
 repo directly — post here and your scenario shows up in-game for everyone.
 

@@ -10,7 +10,8 @@ body:
         which hands you the image file and opens this form for you.
 
         **Drag your image file into the "Basemap image" box below** — that image is both the map and the
-        preview shown in the community Basemaps grid. The two lines under **Technical info** are filled in
+        preview shown in the community Basemaps grid. (A vector basemap arrives as a `.zip`; drop that in
+        the same box.) The two lines under **Technical info** are filled in
         automatically; please don't edit them — they let the game find and dedupe this basemap.
   - type: input
     id: name
@@ -30,8 +31,11 @@ body:
     id: image
     attributes:
       label: Basemap image
-      description: Drag your basemap image (.png / .jpg) here. For a vector basemap, drag the .geojson file instead.
-      placeholder: Drop your image (or .geojson) file here…
+      description: |
+        Drag your basemap image (.png / .jpg) here. For a vector basemap, drag the .zip the editor
+        gave you — GitHub refuses a bare .geojson ("File type .geojson not supported"), so the
+        publish button zips it for you.
+      placeholder: Drop your image (or the .zip for a vector) here…
     validations:
       required: true
   - type: textarea
